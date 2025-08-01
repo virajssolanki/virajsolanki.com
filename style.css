@@ -103,18 +103,18 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ---- Posts page ---- */
-ul.post-list {
+/* ---- bookmarks page ---- */
+ul.bookmark-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-ul.post-list li {
+ul.bookmark-list li {
   margin-bottom: 0.5rem;
 }
 
-ul.post-list span.date {
+ul.bookmark-list span.date {
   float: right;
   color: #6b7280;
   font-size: 0.75rem;
