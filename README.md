@@ -6,6 +6,7 @@ This repository uses the following analytics / feedback tools:
 |------|---------|-----------|
 | **Google Analytics 4** (`G-ERR8M812XB`) | Track traffic, page views and engagement | https://analytics.google.com/ |
 | **Microsoft Clarity** (`snz9vjc7q8`) | Session replay & heat-maps | https://clarity.microsoft.com/projects |
+| **FormSubmit** | Email capture & submissions | https://formsubmit.co/documentation |
 
 The JavaScript snippets for both services are embedded on every HTML page just before `</head>` (GA) and immediately before `</body>` (Clarity).
 
