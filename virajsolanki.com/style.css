@@ -1,0 +1,121 @@
+/* Aman-style minimal, light palette */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #111111;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.6;
+}
+
+/* ---- Layout ---- */
+nav {
+  max-width: 36rem; /* tailwind max-w-xl */
+  margin: 0 auto;
+  padding: 3rem 2rem 3rem; /* py-12 and mb-12 equivalent */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem; /* text-xs */
+}
+
+nav .logo {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+}
+
+nav .logo:hover {
+  color: #374151; /* gray-700 */
+}
+
+nav ul.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem; /* space-x-6 */
+}
+
+nav ul.menu li {
+  margin: 0;
+}
+
+nav ul.menu a {
+  color: #6b7280; /* text-gray-500 */
+}
+
+nav ul.menu a:hover {
+  color: #374151; /* gray-700 */
+}
+
+main.container {
+  max-width: 36rem; /* tailwind max-w-xl */
+  margin: 0 auto;
+  padding: 0 2rem 0;
+  font-size: 0.875rem; /* text-sm */
+}
+
+main.container p {
+  margin-bottom: 2rem; /* space-y-8 */
+}
+
+/* ---- Footer ---- */
+footer {
+  max-width: 36rem;
+  margin: 0 auto 5rem;
+  padding: 0 2rem;
+  font-size: 0.75rem; /* text-xs */
+}
+
+ul.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.25rem; /* each link separated slightly */
+}
+
+ul.links a {
+  color: #6b7280; /* text-gray-500 */
+}
+
+ul.links a:hover {
+  text-decoration: underline;
+  color: #374151; /* gray-700 */
+}
+
+/* ---- Typography ---- */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.underline {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Posts page ---- */
+ul.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.post-list li {
+  margin-bottom: 0.5rem;
+}
+
+ul.post-list span.date {
+  float: right;
+  color: #6b7280;
+  font-size: 0.75rem;
+}
